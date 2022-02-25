@@ -1,0 +1,29 @@
+.logo-wrapper {
+  display: flex;
+}
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-right: 93px;
+}
+.logo_part_white {
+  color: #ffffff;
+  display: block;
+  margin: 0 auto;
+}
+
+.logo_part_blue {
+  color: #2196f3;
+}
+.logo_part_black {
+  color: #000;
+}
+@media screen and (min-width: 1200px) {
+  .logo_part_white {
+    margin-left: 0;
+  }
+}
